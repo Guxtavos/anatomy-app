@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, Button, StyleSheet, Picker } from 'react-native';
+import { View, Text, Button, StyleSheet, Picker } from '@react-native-picker/picker';
 
 const HomeScreen = ({ navigation }) => {
   const [category, setCategory] = useState('bones');
